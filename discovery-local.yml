@@ -1,0 +1,4 @@
+eureka:
+  host: localhost
+  name: eureka
+  port: 8081

@@ -1,0 +1,13 @@
+server:
+  port: ${eureka.port}
+
+spring:
+  application:
+    name: discovery
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://${eureka.host}:${eureka.port}/${eureka.name}/
