@@ -11,3 +11,5 @@ eureka:
     fetchRegistry: false
     serviceUrl:
       defaultZone: http://${eureka.host}:${eureka.port}/${eureka.name}/
+  server:
+    enableSelfPreservation: false
